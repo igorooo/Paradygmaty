@@ -1,0 +1,1 @@
+let rec flatten x = if x = [] then [] else((List.hd x)@(List.tl x));;
